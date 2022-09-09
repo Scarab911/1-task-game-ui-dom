@@ -99,10 +99,7 @@ let playerPoints = 0;
 let computerPoints = 0;
 
 selectionButtons.forEach((button) => {
-  button.addEventListener('click', (e) => {
-    e.preventDefault();
-    // e.target.style.background = 'green';
-
+  button.addEventListener('click', () => {
     playRound(computerPlay(), button.id);
 
     if (playerPoints === 5) {
@@ -120,8 +117,7 @@ selectionButtons.forEach((button) => {
   });
 });
 
-restartBtn.addEventListener('click', (e) => {
-  e.preventDefault();
+restartBtn.addEventListener('click', () => {
   resetGame();
   winMessage.style.color = 'black';
   winMessage.innerText =
