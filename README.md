@@ -29,4 +29,4 @@ Design personal preference.
 
 [Go Visit my profile and find out more about me](https://github.com/Scarab911)
 
-[Page hosted on GitHub](https://scarab911.github.io/2-calculator-task/)
+[Page hosted on GitHub](https://scarab911.github.io/1-task-game-ui-dom)
